@@ -1,0 +1,7 @@
+http://reprap.org/wiki/Teensylu
+
+Working contains the main working folder, no version numbers are appended to the filename.
+
+When a release happens, or boards are ordered, the working folder will be copied to a new release folder with a version number appended to it. 
+No further changes to the schematic or board will happen in this release folder. Gerbers may be generated and added.
+
