@@ -1,50 +1,48 @@
 Teensylu Bill of Materials 'working' version
 ===============================
 
-ATX1              ATX-4VERTICAL                 MINIFITJR-4-VERTICAL   
-C1 - C4           100uf                         CPOL-RADIAL-100UF-25V  
-C5                0.33uF                        CAP-PTH-SMALL2         
-C6                0.1uF                         CAP-PTH-SMALL2         
-C9,C10            10uF                          CAPC2012X145AN         
-C11               1uf                           CAPC2012X145AN         
-C12               1000uF                        CPOL-RADIAL-1000UF-25V 
-C13,C14           0.1uF                         CAPC2012X145AN         
-C16               4.7uF                         CPOL-RADIAL-10UF-25V   
-HDDPWR            5v/12v                        HDD-VERTICAL           
-IC1               LM7805                        VREG-NOGND             
-IC2               AT90USB1286                   TQFP64                 
-J1                USB                           USB-B-PTH              
-JP1,JP3,JP5,JP7   MOT-X, MOT-Y, MOT-Z, MOT-E    MOLEX-1X4              
-JP2,JP4,JP6,JP8   12VPWR                        MOLEX-1X2              
-JP8		  HOTEND			MOLEX-1X4
-JP9 - JP20        Motor Selects                 1X02               
-JP21     	  HOTBED                        MOLEX-1X4              
-JP22, JP24     	  Thermistors                   1X02                   
-JP23     	  SCREW                         SCREWTERMINAL-5MM-2    
-JP25     	  FAN                           1X02                   
-JP26, JP33     	  FIDUCIAL1X2.5                 FIDUCIAL-1X2.5         
-JP27     	  X-STOP                        MOLEX-1X3              
-JP28     	  Y-STOP                        MOLEX-1X3              
-JP29     	  Z-STOP                        MOLEX-1X3              
-JP30     	  E-STOP                        MOLEX-1X3              
-JP31     	  2x7                           JP7Q                   
-JP32     	  ALE                           1X02                   
-JP34		                                1X01                   
-LED1                                            LED5MM                 
-P1 - P4           POLOLU-X                      POLOLU-ALLEGRO-PTH     
-Q1       	  RFP30N06LE                    TO220V                 
-Q2       	  RFP30N06LE                    TO220V                 
-Q3       	  PMV45EN                       SOT95P280X135-3N       
+ATX1              ATX-4VERTICAL                  MINIFITJR-4-VERTICAL   
+C1 - C4           100uf                          CPOL-RADIAL-100UF-35V  
+C5                0.33uF                         CAP-PTH-SMALL2         
+C6                0.1uF                          CAP-PTH-SMALL2         
+C9,C10            10uF                           CAPC2012X145AN         
+C11               1uf                            CAPC2012X145AN         
+C12               1000uF                         CPOL-RADIAL-1000UF-35V 
+C13,C14           0.1uF                          CAPC2012X145AN         
+C16               4.7uF                          CPOL-RADIAL-10UF-35V   
+HDDPWR            5v/12v                         HDD-VERTICAL           
+IC1               LM7805                         VREG-NOGND             
+IC2               AT90USB1286                    TQFP64                 
+J1                USB                            USB-B-PTH              
+JP1,JP3,JP5,JP7   MOT-X, MOT-Y, MOT-Z, MOT-E     MOLEX-1X4              
+JP2,JP4,JP6,JP8   12VPWR                         MOLEX-1X2              
+JP8		  HOTEND                       MOLEX-1X4
+JP9 - JP20        Motor Selects                  1X02               
+JP21     	  HOTBED                       MOLEX-1X4              
+JP22, JP24     	  Thermistors                  1X02                   
+JP25     	  FAN                          1X02                   
+JP27     	  X-STOP                       MOLEX-1X3              
+JP28     	  Y-STOP                       MOLEX-1X3              
+JP29     	  Z-STOP                       MOLEX-1X3              
+JP30     	  E-STOP                       MOLEX-1X3              
+JP31     	  2x7                          JP7Q                   
+JP32     	  ALE                          1X02                   
+JP34		                               1X01                   
+LED1                                             LED5MM                 
+P1 - P4             POLOLU                       POLOLU-ALLEGRO-PTH     
+Q1       	  RFP30N06LE                   TO220V                 
+Q2       	  RFP30N06LE                   TO220V                 
+Q3       	  PMV45EN                      SOT95P280X135-3N       
 R1	          1.5k                          0204/5                 
-R1A      	  1.5k                          RESC2012X70N           
-R2 - R5, R12      100k                          RESC2012X70N           
-R6, R11, R14      10k                           RESC2012X70N           
+R1A      	  1.5k                         RESC2012X70N           
+R2 - R5, R12      100k                           RESC2012X70N           
+R6, R11, R14      10k                            RESC2012X70N           
 R7, R8 	          22 Ohm                        RESC2012X70N           
-R9, R10           4.7k                          RESC2012X70N           
-R13      	  1k                            RESC2012X70N           
+R9, R10           4.7k                           RESC2012X70N           
+R13      	  1k                           RESC2012X70N           
 S1 	          RESET                         TACTILE-PTH            
-SJ100    	  5v/12v                        SJ_3                   
-XTAL     	  KYOCERA_PQRC_TYPE_S_RESONATOR AVX_3.2X1.3_RESONATOR 
+SJ100    	  5v/12v                       SJ_3                   
+XTAL     	  PRQC RESONATOR               AVX_3.2X1.3_RESONATOR 
 
 
 
