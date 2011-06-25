@@ -7,7 +7,7 @@ C5                       0.33uF                           CAP-PTH-SMALL2
 C6                       0.1uF                            CAP-PTH-SMALL2         
 C9,C10                   10uF                             CAPC2012X145AN         
 C11                      1uf                              CAPC2012X145AN         
-C12                      1000uF                           CPOL-RADIAL-1000UF-35V 
+C7,C12                   580uF                           CPOL-RADIAL-580UF-35V 
 C13,C14                  0.1uF                            CAPC2012X145AN         
 C16                      4.7uF                            CPOL-RADIAL-10UF-35V   
 HDDPWR                   5v/12v                           HDD-VERTICAL           
@@ -26,11 +26,10 @@ LED1                                                      LED5MM
 P1 - P4                  POLOLU                           POLOLU-ALLEGRO-PTH     
 Q1,Q2                    STP45NF06                        TO220V                 
 Q3                       PMV45EN                          SOT95P280X135-3N       
-R1                       1.5k                             0204/5                 
-R1A                      1.5k                             RESC2012X70N           
+R1                       1k                             RESC2012X70N           
 R2 - R5, R12             100k                             RESC2012X70N           
 R6, R11, R14             10k                              RESC2012X70N           
-R7, R8 	                22 Ohm                           RESC2012X70N           
+R7, R8 	                 22 Ohm                           RESC2012X70N           
 R9, R10                  4.7k                             RESC2012X70N           
 R13                      1k                               RESC2012X70N           
 S1                       RESET                            TACTILE-PTH            
