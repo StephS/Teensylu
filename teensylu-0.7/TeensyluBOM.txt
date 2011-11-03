@@ -28,10 +28,9 @@ Q1,Q2                    STP45NF06                        TO220V
 Q3                       PMV45EN                          SOT95P280X135-3N       
 R1                       1k                             RESC2012X70N           
 R2 - R5, R12             100k                             RESC2012X70N           
-R6, R11, R14             10k                              RESC2012X70N           
+R6, R11, R13, R14        10k                              RESC2012X70N           
 R7, R8 	                 22 Ohm                           RESC2012X70N           
 R9, R10                  4.7k                             RESC2012X70N           
-R13                      1k                               RESC2012X70N           
 S1                       RESET                            TACTILE-PTH            
 SJ100                    5v/12v                           SJ_3                   
 XTAL                     16MHZ RESONATOR                  PRQC_3.2X1.3_RESONATOR 
