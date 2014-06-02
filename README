@@ -1,7 +1,14 @@
+I am officially recommending user NOT to use the Teensylu board until the design is updated.
+As with all hobbiest electronics, there is a certain degree of risk involved. I had hoped that by making this project open source, that users would provide feedback and improvements to the design.
+This has not happened.
+But this is not why I am recommending not to use the board. I have discovered issues with the board when the proper components and cables are not used.
+Use this board at your own risk!
+There are some modifications you can do to mitigate the chances of FIRE or damage to your 3D Printer. These modifications would include adding wires to increase the current carry capacity of the power rails to the Hot End and Heated Bed connector. In addition, a heatsink should be used on the Mosfets. For the most reliable connections the power to your hotend and heated bed should be directly soldered to the board.
+The current connectors may become oxidized and created a hazard. If you check the connectors to your hot end or heated bed and they are melted (even partially) or blackened then they need to be replaced!
+
+Again, Use this board at your own risk!
+I recommend using a board with fuses built in and proper power management. I will be working to modify the Teensylu to have better management, but due to the constraints of the free version of eagle and the board size I might not be able to meet those goals.
+
+There is no such thing as a "Safe" 3d printer controller. Keep a smoke detector nearby and have a fire extinguisher handy. Do NOT leave unattended.
+
 http://reprap.org/wiki/Teensylu
-
-Working contains the main working folder, no version numbers are appended to the filename.
-
-When a release happens, or boards are ordered, the working folder will be copied to a new release folder with a version number appended to it. 
-No further changes to the schematic or board will happen in this release folder. Gerbers may be generated and added.
-
