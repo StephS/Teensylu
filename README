@@ -1,14 +1,18 @@
-I am officially recommending user NOT to use the Teensylu board until the design is updated.
+UPDATE: TeensyluV1 is a complete redesign of the board. I have moved the power connector closer to the mosfets. Pins have changed! This new board is slightly larger than the older versions - It now matches the size of the Teensylu2
+The hotend and bed connectors have changed to high power connectors. The main power connector can either be  screw connector, or a 6-Pin ATX-PCIE power connector. Please note the orientation of the connector and the polarity! Do not use the older 4 pin ATX connector!!!
+It is highly recommended that this board is built using 2oz-in copper. Less than that may lead to board damage or FIRE!
+I recommend a 15 Amp fuse in the mini-blade fuse holder.
+
+I do not recommend using the older teensylu boards, get the TeensyluV1 board and use the added safety features.
+
 As with all hobbiest electronics, there is a certain degree of risk involved. I had hoped that by making this project open source, that users would provide feedback and improvements to the design.
 This has not happened.
-But this is not why I am recommending not to use the board. I have discovered issues with the board when the proper components and cables are not used.
-Use this board at your own risk!
-There are some modifications you can do to mitigate the chances of FIRE or damage to your 3D Printer. These modifications would include adding wires to increase the current carry capacity of the power rails to the Hot End and Heated Bed connector. In addition, a heatsink should be used on the Mosfets. For the most reliable connections the power to your hotend and heated bed should be directly soldered to the board.
-The current connectors may become oxidized and created a hazard. If you check the connectors to your hot end or heated bed and they are melted (even partially) or blackened then they need to be replaced!
 
 Again, Use this board at your own risk!
-I recommend using a board with fuses built in and proper power management. I will be working to modify the Teensylu to have better management, but due to the constraints of the free version of eagle and the board size I might not be able to meet those goals.
+I am releasing these designs without warranty or guarantee.
 
 There is no such thing as a "Safe" 3d printer controller. Keep a smoke detector nearby and have a fire extinguisher handy. Do NOT leave unattended.
 
 http://reprap.org/wiki/Teensylu
+
+If you like this design, and want to see more, please consider donating.

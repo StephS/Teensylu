@@ -1,0 +1,9 @@
+This board is a PROTOTYPE until the design is built and tested.
+
+Version 1.0 is ready for production, earlier versions should not be used.
+
+Please see TeensyluV1_Pin_Map.htm for the correct pin mapping using the teensyduino library. Analog pins should use the analog pin reference.
+
+The BOM is included. Please use parts of the same or higher ratings.
+
+If you'd like to donate so I can buy the full version of Eagle, and make more cool stuff, please contact me through Google+
