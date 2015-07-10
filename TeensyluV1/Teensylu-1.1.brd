@@ -211,8 +211,8 @@
 <text x="52.832" y="10.922" size="0.8128" layer="121" font="vector" ratio="15" rot="R180">+5V</text>
 <text x="48.26" y="10.922" size="0.8128" layer="121" font="vector" ratio="15" rot="R180">+12V</text>
 <text x="62.738" y="30.734" size="1.27" layer="121" font="vector" ratio="15">TeensyluV1</text>
-<text x="62.738" y="28.956" size="1.27" layer="121" font="vector" ratio="15">Rev. 1.0</text>
-<text x="62.738" y="27.432" size="1.016" layer="121" font="vector" ratio="15">https://github.com/StephS/Teensylu2</text>
+<text x="62.738" y="28.956" size="1.27" layer="121" font="vector" ratio="15">Rev. 1.1</text>
+<text x="62.738" y="27.432" size="1.016" layer="121" font="vector" ratio="15">https://github.com/StephS/Teensylu</text>
 <text x="62.738" y="25.908" size="1.016" layer="121" font="vector" ratio="15">Licensed CC-BY-SA</text>
 <text x="38.354" y="6.096" size="1.016" layer="121" font="vector" ratio="15">Z-STOP</text>
 <text x="46.482" y="6.096" size="1.016" layer="121" font="vector" ratio="15">Y-STOP</text>
@@ -2499,7 +2499,6 @@ design rules under a new name.</description>
 <via x="26.67" y="31.242" extent="1-16" drill="0.4"/>
 <via x="31.242" y="29.718" extent="1-16" drill="0.4"/>
 <via x="95.25" y="53.086" extent="1-16" drill="0.4"/>
-<contactref element="Q5" pad="3"/>
 <via x="28.956" y="60.452" extent="1-16" drill="0.4"/>
 <via x="49.276" y="60.452" extent="1-16" drill="0.4"/>
 <via x="69.85" y="60.452" extent="1-16" drill="0.4"/>
@@ -2530,6 +2529,7 @@ design rules under a new name.</description>
 <via x="35.56" y="29.718" extent="1-16" drill="0.4"/>
 <via x="22.352" y="20.828" extent="1-16" drill="0.4"/>
 <via x="22.352" y="19.304" extent="1-16" drill="0.4"/>
+<contactref element="Q5" pad="2"/>
 </signal>
 <signal name="!RESET">
 <contactref element="S1" pad="3"/>
@@ -3035,17 +3035,18 @@ design rules under a new name.</description>
 <wire x1="51.816" y1="3.302" x2="51.816" y2="6.35" width="0.254" layer="1"/>
 </signal>
 <signal name="Z-STOP">
-<wire x1="43.18" y1="18.4843125" x2="43.18" y2="16.256" width="0.254" layer="1"/>
-<contactref element="Q5" pad="2"/>
-<wire x1="43.18" y1="16.256" x2="43.368" y2="15.682" width="0.254" layer="1"/>
-<wire x1="43.368" y1="15.682" x2="43.264" y2="15.682" width="0.254" layer="1"/>
+<wire x1="41.148" y1="18.4843125" x2="41.148" y2="17.018" width="0.254" layer="1"/>
 <contactref element="U5" pad="1"/>
+<wire x1="41.148" y1="17.018" x2="41.148" y2="16.764" width="0.254" layer="1"/>
 <wire x1="41.041925" y1="27.93720625" x2="39.878" y2="26.77328125" width="0.254" layer="1"/>
 <wire x1="39.878" y1="26.77328125" x2="39.878" y2="26.67" width="0.254" layer="1"/>
 <via x="39.878" y="26.67" extent="1-16" drill="0.4"/>
-<wire x1="39.878" y1="26.67" x2="39.878" y2="21.7863125" width="0.254" layer="16"/>
-<wire x1="39.878" y1="21.7863125" x2="43.18" y2="18.4843125" width="0.254" layer="16"/>
-<via x="43.18" y="18.4843125" extent="1-16" drill="0.4"/>
+<wire x1="39.878" y1="26.67" x2="39.878" y2="19.7543125" width="0.254" layer="16"/>
+<wire x1="39.878" y1="19.7543125" x2="41.148" y2="18.4843125" width="0.254" layer="16"/>
+<via x="41.148" y="18.4843125" extent="1-16" drill="0.4"/>
+<contactref element="Q5" pad="3"/>
+<wire x1="41.064" y1="14.732" x2="41.148" y2="14.732" width="0.254" layer="1"/>
+<wire x1="41.148" y1="14.732" x2="41.148" y2="16.764" width="0.254" layer="1"/>
 </signal>
 <signal name="X-STEP">
 <contactref element="P1" pad="STEP"/>
@@ -3791,9 +3792,9 @@ design rules under a new name.</description>
 <signal name="Z-STOP-BIAS">
 <contactref element="JP7" pad="1"/>
 <contactref element="Q5" pad="1"/>
-<wire x1="43.264" y1="13.782" x2="45.212" y2="11.834" width="0.254" layer="1"/>
 <wire x1="45.212" y1="11.834" x2="45.212" y2="4.826" width="0.254" layer="1"/>
 <wire x1="45.212" y1="4.826" x2="43.688" y2="3.302" width="0.254" layer="1"/>
+<wire x1="43.264" y1="13.782" x2="45.212" y2="11.834" width="0.254" layer="1"/>
 </signal>
 <signal name="PE3">
 <contactref element="U5" pad="9"/>
