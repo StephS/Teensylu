@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3627,40 +3627,47 @@ Inifineon</description>
 <wire x1="-1.016" y1="-0.762" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
 <wire x1="0.762" y1="-1.016" x2="1.016" y2="-0.762" width="0.2032" layer="21" curve="90"/>
 <wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.254" layer="1"/>
 <wire x1="-1.016" y1="0.508" x2="-0.508" y2="1.016" width="0.1524" layer="121" curve="-90"/>
 <wire x1="-0.508" y1="1.016" x2="0.508" y2="1.016" width="0.1524" layer="121"/>
 <wire x1="0.508" y1="1.016" x2="1.016" y2="0.508" width="0.1524" layer="121" curve="-90"/>
 <wire x1="-1.016" y1="-0.508" x2="-0.508" y2="-1.016" width="0.1524" layer="121" curve="90"/>
 <wire x1="-0.508" y1="-1.016" x2="0.508" y2="-1.016" width="0.1524" layer="121"/>
 <wire x1="0.508" y1="-1.016" x2="1.016" y2="-0.508" width="0.1524" layer="121" curve="90"/>
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-0.508" y="0" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
 <text x="-1.016" y="1.27" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-1.016" y="-2.032" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<polygon width="0.127" layer="1">
-<vertex x="-0.254" y="-0.762" curve="-90"/>
-<vertex x="-0.762" y="-0.254"/>
-<vertex x="-0.762" y="0.254" curve="-90"/>
-<vertex x="-0.254" y="0.762"/>
+<polygon width="0.2032" layer="1">
+<vertex x="-0.2032" y="-0.6858" curve="-90"/>
+<vertex x="-0.6858" y="-0.254"/>
+<vertex x="-0.6858" y="0.254" curve="-90"/>
+<vertex x="-0.2032" y="0.6858"/>
 </polygon>
-<polygon width="0.127" layer="1">
-<vertex x="0.254" y="0.762" curve="-90"/>
-<vertex x="0.762" y="0.254"/>
-<vertex x="0.762" y="-0.254" curve="-90"/>
-<vertex x="0.254" y="-0.762"/>
-</polygon>
-<polygon width="0.254" layer="29">
-<vertex x="-0.254" y="-0.762" curve="-90"/>
-<vertex x="-0.762" y="-0.254"/>
-<vertex x="-0.762" y="0.254" curve="-90"/>
-<vertex x="-0.254" y="0.762"/>
+<polygon width="0.2032" layer="1">
+<vertex x="0.2032" y="0.6858" curve="-90"/>
+<vertex x="0.6858" y="0.254"/>
+<vertex x="0.6858" y="-0.254" curve="-90"/>
+<vertex x="0.2032" y="-0.6858"/>
 </polygon>
 <polygon width="0.254" layer="29">
-<vertex x="0.254" y="0.762" curve="-90"/>
-<vertex x="0.762" y="0.254"/>
-<vertex x="0.762" y="-0.254" curve="-90"/>
-<vertex x="0.254" y="-0.762"/>
+<vertex x="0.2032" y="-0.762"/>
+<vertex x="-0.2032" y="-0.762" curve="-90"/>
+<vertex x="-0.762" y="-0.2032"/>
+<vertex x="-0.762" y="0.2032" curve="-90"/>
+<vertex x="-0.2032" y="0.762"/>
+<vertex x="0.2032" y="0.762" curve="-90"/>
+<vertex x="0.762" y="0.2032"/>
+<vertex x="0.762" y="-0.2032" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="0.2032" y="-0.762"/>
+<vertex x="-0.2032" y="-0.762" curve="-90"/>
+<vertex x="-0.762" y="-0.2032"/>
+<vertex x="-0.762" y="0.2032" curve="-90"/>
+<vertex x="-0.2032" y="0.762"/>
+<vertex x="0.2032" y="0.762" curve="-90"/>
+<vertex x="0.762" y="0.2032"/>
+<vertex x="0.762" y="-0.2032" curve="-90"/>
 </polygon>
 </package>
 <package name="SJ_3">

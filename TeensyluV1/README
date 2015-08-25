@@ -1,9 +1,10 @@
-This board is a PROTOTYPE until the design is built and tested.
-
-Version 1.0 is ready for production, earlier versions should not be used.
+Version 1.2 is ready for production, earlier versions should not be used.
+This latest version of the board utilizes 4 layers. This is to improve the current capacity of the power planes.
+It is recommended that the top and bottom layers be 2oz/in.
+24v power supply should be possible, please note to use a 24v heat bed, hotend, and fans or else damage or FIRE can occur.
 
 Please see TeensyluV1_Pin_Map.htm for the correct pin mapping using the teensyduino library. Analog pins should use the analog pin reference.
 
 The BOM is included. Please use parts of the same or higher ratings.
 
-If you'd like to donate so I can buy the full version of Eagle, and make more cool stuff, please contact me through Google+
+If you'd like to donate so I can buy the full version of Eagle, and make more cool stuff, please contact me through Google+ at https://plus.google.com/+StephanieS3D

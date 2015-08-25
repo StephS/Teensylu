@@ -4825,50 +4825,6 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="121" curve="90"/>
 <wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="121"/>
 </package>
-<package name="SJ_2S-TRACE">
-<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
-<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.762" y1="1.016" x2="1.016" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.016" y1="0.762" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.016" y1="-0.762" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.762" y1="-1.016" x2="1.016" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.254" layer="1"/>
-<wire x1="-1.016" y1="0.508" x2="-0.508" y2="1.016" width="0.1524" layer="121" curve="-90"/>
-<wire x1="-0.508" y1="1.016" x2="0.508" y2="1.016" width="0.1524" layer="121"/>
-<wire x1="0.508" y1="1.016" x2="1.016" y2="0.508" width="0.1524" layer="121" curve="-90"/>
-<wire x1="-1.016" y1="-0.508" x2="-0.508" y2="-1.016" width="0.1524" layer="121" curve="90"/>
-<wire x1="-0.508" y1="-1.016" x2="0.508" y2="-1.016" width="0.1524" layer="121"/>
-<wire x1="0.508" y1="-1.016" x2="1.016" y2="-0.508" width="0.1524" layer="121" curve="90"/>
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
-<text x="-1.016" y="1.27" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-1.016" y="-2.032" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<polygon width="0.127" layer="1">
-<vertex x="-0.254" y="-0.762" curve="-90"/>
-<vertex x="-0.762" y="-0.254"/>
-<vertex x="-0.762" y="0.254" curve="-90"/>
-<vertex x="-0.254" y="0.762"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="0.254" y="0.762" curve="-90"/>
-<vertex x="0.762" y="0.254"/>
-<vertex x="0.762" y="-0.254" curve="-90"/>
-<vertex x="0.254" y="-0.762"/>
-</polygon>
-<polygon width="0.254" layer="29">
-<vertex x="-0.254" y="-0.762" curve="-90"/>
-<vertex x="-0.762" y="-0.254"/>
-<vertex x="-0.762" y="0.254" curve="-90"/>
-<vertex x="-0.254" y="0.762"/>
-</polygon>
-<polygon width="0.254" layer="29">
-<vertex x="0.254" y="0.762" curve="-90"/>
-<vertex x="0.762" y="0.254"/>
-<vertex x="0.762" y="-0.254" curve="-90"/>
-<vertex x="0.254" y="-0.762"/>
-</polygon>
-</package>
 <package name="SDR1006">
 <circle x="0" y="-0.254" radius="4.6628" width="0.127" layer="21"/>
 <smd name="P$1" x="0" y="3.048" dx="10.0076" dy="3.6068" layer="1"/>
@@ -4982,6 +4938,57 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <wire x1="-8.001" y1="3.3655" x2="-8.001" y2="-3.3655" width="0.254" layer="121"/>
 <wire x1="-8.001" y1="-3.3655" x2="8.001" y2="-3.3655" width="0.254" layer="121"/>
 <wire x1="8.001" y1="-3.3655" x2="8.001" y2="3.3655" width="0.254" layer="121"/>
+</package>
+<package name="SJ_2S-TRACE">
+<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
+<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.762" y1="1.016" x2="1.016" y2="0.762" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.016" y1="0.762" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.016" y1="-0.762" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.762" y1="-1.016" x2="1.016" y2="-0.762" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-1.016" y1="0.508" x2="-0.508" y2="1.016" width="0.1524" layer="121" curve="-90"/>
+<wire x1="-0.508" y1="1.016" x2="0.508" y2="1.016" width="0.1524" layer="121"/>
+<wire x1="0.508" y1="1.016" x2="1.016" y2="0.508" width="0.1524" layer="121" curve="-90"/>
+<wire x1="-1.016" y1="-0.508" x2="-0.508" y2="-1.016" width="0.1524" layer="121" curve="90"/>
+<wire x1="-0.508" y1="-1.016" x2="0.508" y2="-1.016" width="0.1524" layer="121"/>
+<wire x1="0.508" y1="-1.016" x2="1.016" y2="-0.508" width="0.1524" layer="121" curve="90"/>
+<smd name="1" x="-0.508" y="0" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.508" dy="0.508" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="-1.016" y="1.27" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.016" y="-2.032" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<polygon width="0.2032" layer="1">
+<vertex x="-0.2032" y="-0.6858" curve="-90"/>
+<vertex x="-0.6858" y="-0.254"/>
+<vertex x="-0.6858" y="0.254" curve="-90"/>
+<vertex x="-0.2032" y="0.6858"/>
+</polygon>
+<polygon width="0.2032" layer="1">
+<vertex x="0.2032" y="0.6858" curve="-90"/>
+<vertex x="0.6858" y="0.254"/>
+<vertex x="0.6858" y="-0.254" curve="-90"/>
+<vertex x="0.2032" y="-0.6858"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="0.2032" y="-0.762"/>
+<vertex x="-0.2032" y="-0.762" curve="-90"/>
+<vertex x="-0.762" y="-0.2032"/>
+<vertex x="-0.762" y="0.2032" curve="-90"/>
+<vertex x="-0.2032" y="0.762"/>
+<vertex x="0.2032" y="0.762" curve="-90"/>
+<vertex x="0.762" y="0.2032"/>
+<vertex x="0.762" y="-0.2032" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="0.2032" y="-0.762"/>
+<vertex x="-0.2032" y="-0.762" curve="-90"/>
+<vertex x="-0.762" y="-0.2032"/>
+<vertex x="-0.762" y="0.2032" curve="-90"/>
+<vertex x="-0.2032" y="0.762"/>
+<vertex x="0.2032" y="0.762" curve="-90"/>
+<vertex x="0.762" y="0.2032"/>
+<vertex x="0.762" y="-0.2032" curve="-90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -8589,7 +8596,7 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <text x="1.27" y="238.76" size="1.778" layer="91" font="vector">Mosfets</text>
 <text x="10.16" y="149.86" size="1.778" layer="91" font="vector">Power Acc</text>
 <text x="60.96" y="7.62" size="3.81" layer="94">TeensyluV1</text>
-<text x="175.26" y="7.62" size="2.54" layer="94">Rev 1.1</text>
+<text x="175.26" y="7.62" size="2.54" layer="94">Rev 1.2</text>
 <text x="111.76" y="7.62" size="3.048" layer="94">Control for Reprap</text>
 <text x="63.5" y="2.54" size="2.032" layer="94">Licensed under the Creative Commons Attributions ShareAlike 3.0 License</text>
 <text x="149.86" y="200.66" size="1.778" layer="91" font="vector">Extension Pin Headers</text>
