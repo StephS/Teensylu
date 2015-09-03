@@ -1,0 +1,14 @@
+\t (00:00:00) allegro_free_viewer 16.6 S002 (v16-6-0A) Windows 32
+\t (00:00:00)     Journal start - Thu Sep 03 08:09:25 2015
+\t (00:00:00)         Host=STSHALT-DESK User=stshalt Pid=5680 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\e (00:00:00) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\e (00:00:00) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\i (00:00:01) fillin confirm
+\t (00:00:01) Starting new design...
+\i (00:00:01) trapsize 653
+\i (00:00:01) trapsize 641
+\i (00:00:01) trapsize 886
+\i (00:00:03) exit 
+\t (00:00:03)     Journal end - Thu Sep 03 08:09:28 2015

@@ -1,0 +1,49 @@
+Package Pin Number	Pin Name	Teensyduino Pin Number	Connected NET	Description
+1	PE6	18	Z-STOP	Z Endstop or Z probe input
+2	PE7	19	PE7	Not Connected
+9	PE3		PE3	Not Connected
+10	PB0	20	SDCS	SDCS
+11	PB1	21	SCLK	SCLK
+12	PB2	22	MOSI	MOSI
+13	PB3	23	MISO	MISO
+14	PB4	24	PB4	Extension Header PIN 5
+15	PB5	25	Y-STOP	Y Endstop
+16	PB6	26	X-STOP	X Endstop
+17	PB7	27	SCDCD	SD Card Detect
+18	PE4	36	E-STOP	E Endstop
+19	PE5	37	PE5	Extension Header PIN 4
+25	PD0	0	PD0-SCL	Extension Header PIN 6
+26	PD1	1	PD1-SDA	Extension Header PIN 7
+27	PD2	2	PD2-RX1	Extension Header PIN 8
+28	PD3	3	PD3-TX1	Extension Header PIN 9
+29	PD4	4	PD4	Extension Header PIN 10
+30	PD5	5	PD5	Extension Header PIN 11
+31	PD6	6	PD6	Extension Header PIN 12
+32	PD7	7	PD7	Extension Header PIN 13
+33	PE0	8	E2-STEP	Not Connected
+34	PE1	9	E2-DIR	Not Connected
+35	PC0	10	!E2-ENABLE	Not Connected
+36	PC1	11	E1-DIR	1st Extruder STEP pin
+37	PC2	12	E1-STEP	1st Extruder DIR pin
+38	PC3	13	!E1-ENABLE	1st Extruder ENABLE pin
+39	PC4	14	!HOTBED	Hot Bed Mosfet control pin
+40	PC5	15	!HOTEND-1	Hot End 1 Mosfet control pin
+41	PC6	16	!PWM-FAN	Fan Mosfet control pin
+42	PC7	17	Z-DIR	Z Axis STEP pin
+43	PE2		PE2	Boot Mode pin
+44	PA7	35	Z-STEP	Z Axis DIR pin
+45	PA6	34	!Z-ENABLE	Z Axis ENABLE pin
+46	PA5	33	Y-DIR	Y Axis STEP pin
+47	PA4	32	Y-STEP	Y Axis DIR pin
+48	PA3	31	!Y-ENABLE	Y Axis ENABLE pin
+49	PA2	30	X-DIR	X Axis STEP pin
+50	PA1	29	X-STEP	X Axis DIR pin
+51	PA0	28	!X-ENABLE	X Axis ENABLE pin
+54	PF7	45	A7	Extension Header PIN 14
+55	PF6	44	A6	Not Connected
+56	PF5	43	A5	Not Connected
+57	PF4	42	A4	Not Connected
+58	PF3	41	!HOTEND-2	Not Connected
+59	PF2	40	E2-THERM	Not Connected
+60	PF1	39	E1-THERM	Hot End 1 thermistor input pin
+61	PF0	38	B-THERM	Hot Bed thermistor input pin

@@ -5,13 +5,15 @@ I recommend a 15 Amp fuse in the mini-blade fuse holder.
 
 I do not recommend using the older teensylu boards, get the TeensyluV1 board and use the added safety features.
 
+I have decided to release 2 different versions of the board, The 2 Layer version, and 4 Layer version. The 4 layer version has greater power capacity due to uninterrupted power planes. The 2 layer version will be cheaper to manufacture. Functionally the boards are identical. I would prefer the 4 layer version, but I realize that COST is a major issue (up to 3 times the cost to manufacture 4 layer versus 2 layer).
+
 As with all hobbiest electronics, there is a certain degree of risk involved. I had hoped that by making this project open source, that users would provide feedback and improvements to the design.
 This has not happened.
 
 Again, Use this board at your own risk!
 I am releasing these designs without warranty or guarantee.
 
-There is no such thing as a "Safe" 3d printer controller. Keep a smoke detector nearby and have a fire extinguisher handy. Do NOT leave unattended.
+There is no such thing as a "Safe" 3d printer controller. Keep a smoke detector nearby and have a fire extinguisher handy. Do NOT the leave unattended. Disconnect from power source when not in use.
 
 http://reprap.org/wiki/Teensylu
 
