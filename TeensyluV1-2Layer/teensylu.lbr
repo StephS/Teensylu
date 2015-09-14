@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4339,7 +4339,7 @@ Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF</description>
 <text x="-6.35" y="-1.8923" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="TSOT6">
-<circle x="-1.15" y="-0.5" radius="0.1524" width="0" layer="121"/>
+<circle x="-1.658" y="-1.008" radius="0.1524" width="0" layer="121"/>
 <wire x1="-1.5" y1="0.9" x2="-1.45" y2="0.9" width="0.127" layer="21"/>
 <wire x1="-1.45" y1="0.9" x2="-1.35" y2="0.9" width="0.127" layer="21"/>
 <wire x1="-1.35" y1="0.9" x2="-1.25" y2="0.9" width="0.127" layer="21"/>
@@ -4360,8 +4360,8 @@ Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF</description>
 <wire x1="-0.966" y1="0.8112" x2="-0.966" y2="-0.8144" width="0.127" layer="21"/>
 <wire x1="-0.966" y1="-0.8144" x2="-0.8644" y2="-0.8144" width="0.127" layer="21"/>
 <wire x1="-0.8644" y1="-0.8144" x2="-0.8644" y2="0.8112" width="0.127" layer="21"/>
-<wire x1="-1.423" y1="-0.781" x2="-1.423" y2="0.781" width="0.1524" layer="121"/>
-<wire x1="1.422" y1="0.781" x2="1.422" y2="-0.781" width="0.1524" layer="121"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.254" layer="121"/>
+<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.1524" layer="121"/>
 <smd name="1" x="-0.95" y="-1.3" dx="0.69" dy="1" layer="1"/>
 <smd name="2" x="0" y="-1.3" dx="0.69" dy="1" layer="1"/>
 <smd name="3" x="0.95" y="-1.3" dx="0.69" dy="1" layer="1"/>
@@ -4372,7 +4372,7 @@ Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF</description>
 <text x="2.95" y="-1.8" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="TSSOP14">
-<circle x="-2.032" y="-1.524" radius="0.179603125" width="0.1524" layer="121"/>
+<circle x="-2.794" y="-2.54" radius="0.179603125" width="0.1524" layer="121"/>
 <wire x1="-2.55" y1="2.15" x2="2.45" y2="2.15" width="0.1524" layer="21"/>
 <wire x1="2.45" y1="2.15" x2="2.45" y2="-2.35" width="0.1524" layer="21"/>
 <wire x1="2.45" y1="-2.35" x2="-2.55" y2="-2.35" width="0.127" layer="21"/>
@@ -4940,6 +4940,57 @@ rectangle, 5.7 x 3.2 mm</description>
 <wire x1="-8.001" y1="3.3655" x2="-8.001" y2="-3.3655" width="0.254" layer="121"/>
 <wire x1="-8.001" y1="-3.3655" x2="8.001" y2="-3.3655" width="0.254" layer="121"/>
 <wire x1="8.001" y1="-3.3655" x2="8.001" y2="3.3655" width="0.254" layer="121"/>
+</package>
+<package name="WJ_02_08">
+<description>&lt;b&gt;JUMPER&lt;/b&gt; 0.2in 0.8mm drill</description>
+<wire x1="-1.3462" y1="0" x2="1.3462" y2="0" width="0.6096" layer="21"/>
+<wire x1="2.54" y1="0" x2="1.397" y2="0" width="0.6096" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-1.397" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="0.8" diameter="1.4224" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8" diameter="1.4224" shape="octagon"/>
+<text x="-2.54" y="0.889" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.5001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+</package>
+<package name="WJ_015_08">
+<description>&lt;b&gt;JUMPER&lt;/b&gt; 0.2in 0.8mm drill</description>
+<wire x1="-0.0762" y1="0" x2="1.3462" y2="0" width="0.6096" layer="21"/>
+<wire x1="2.54" y1="0" x2="1.397" y2="0" width="0.6096" layer="51"/>
+<wire x1="-1.27" y1="0" x2="-0.127" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-1.27" y="0" drill="0.8" diameter="1.4224" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8" diameter="1.4224" shape="octagon"/>
+<text x="-2.54" y="0.889" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.5001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+</package>
+<package name="WJ_01_08">
+<description>&lt;b&gt;JUMPER&lt;/b&gt; 0.2in 0.8mm drill</description>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="0" width="0.6096" layer="121"/>
+<wire x1="1.27" y1="0" x2="0.127" y2="0" width="0.6096" layer="51"/>
+<wire x1="-1.27" y1="0" x2="-0.127" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-1.27" y="0" drill="0.8" diameter="1.4224" shape="octagon" thermals="no"/>
+<pad name="2" x="1.27" y="0" drill="0.8" diameter="1.4224" shape="octagon" thermals="no"/>
+<text x="-2.032" y="1.016" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="SOT143-R">
+<description>&lt;b&gt;SOT143 Reflow soldering&lt;/b&gt; Philips SC01_Mounting_1996.pdf</description>
+<wire x1="-1.4478" y1="0.635" x2="1.4478" y2="0.635" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-0.635" x2="1.4478" y2="-0.635" width="0.1016" layer="51"/>
+<wire x1="-1.4478" y1="-0.635" x2="-1.4478" y2="0.635" width="0.1016" layer="51"/>
+<wire x1="1.4478" y1="-0.635" x2="1.4478" y2="0.635" width="0.1016" layer="51"/>
+<smd name="1" x="-0.75" y="-1" dx="1" dy="0.7" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="3" x="0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="4" x="-0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
+<text x="-1.6" y="1.6" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.6" y="-2.85" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<rectangle x1="0.7366" y1="-1.3208" x2="1.1938" y2="-0.635" layer="51"/>
+<rectangle x1="0.7112" y1="0.635" x2="1.1684" y2="1.3208" layer="51"/>
+<rectangle x1="-1.143" y1="0.635" x2="-0.6858" y2="1.3208" layer="51"/>
+<rectangle x1="-1.1938" y1="-1.3208" x2="-0.3048" y2="-0.635" layer="51"/>
+<circle x="-1.778" y="-0.762" radius="0.127" width="0.1524" layer="121"/>
+<wire x1="-1.4478" y1="0.635" x2="1.4478" y2="0.635" width="0.1016" layer="121"/>
+<wire x1="-1.4478" y1="-0.635" x2="1.4478" y2="-0.635" width="0.1016" layer="121"/>
+<wire x1="-1.4478" y1="-0.635" x2="-1.4478" y2="0.635" width="0.1016" layer="121"/>
+<wire x1="1.4478" y1="-0.635" x2="1.4478" y2="0.635" width="0.1016" layer="121"/>
 </package>
 </packages>
 <symbols>
@@ -5679,6 +5730,32 @@ rectangle, 5.7 x 3.2 mm</description>
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="180"/>
 <pin name="P$2" x="-7.62" y="-2.54" visible="off" length="short" direction="pas"/>
 <pin name="P$3" x="7.62" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WIRE_JUMPER">
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<circle x="-3.175" y="0" radius="0.635" width="0.1524" layer="94"/>
+<circle x="3.175" y="0" radius="0.635" width="0.1524" layer="94"/>
+<wire x1="3.11334375" y1="0.622665625" x2="-3.11334375" y2="0.622665625" width="0.1524" layer="94" curve="157.380246"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<pin name="+" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
+<text x="-5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<pin name="-" x="5.08" y="0" visible="off" length="point" direction="pas"/>
+<text x="5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+</symbol>
+<symbol name="DRTR5V0U2SR">
+<description>Diodes Incorporated DRTR5V0U2SR 2 CHANNEL LOW CAPACITANCE TVS DIODE ARRAY
+ DIODE SOT143</description>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="-8.89" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND" x="11.43" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="IO1" x="-11.43" y="0" length="short"/>
+<pin name="IO2" x="11.43" y="0" length="short" rot="R180"/>
+<pin name="VCC" x="-11.43" y="2.54" length="short" direction="pwr"/>
+<text x="-8.89" y="5.334" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-8.89" y="-5.08" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -8101,7 +8178,7 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 </device>
 </devices>
 </deviceset>
-<deviceset name="MINI-FUSE">
+<deviceset name="MINI-FUSE" prefix="F">
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -8118,6 +8195,64 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <attribute name="CURRENT" value="15A" constant="no"/>
 <attribute name="MANUFACTURER" value="Keystone" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="3568" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WIRE_JUMPER" prefix="J" uservalue="yes">
+<description>A wire jumper.  This component lets you give the same net two different names</description>
+<gates>
+<gate name="G$1" symbol="WIRE_JUMPER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0.2" package="WJ_02_08">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.15" package="WJ_015_08">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.1" package="WJ_01_08">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DRTR5V0U2SR" prefix="U">
+<description>Diodes Incorporated DRTR5V0U2SR</description>
+<gates>
+<gate name="G$2" symbol="DRTR5V0U2SR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT143-R">
+<connects>
+<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="G$2" pin="IO1" pad="2"/>
+<connect gate="G$2" pin="IO2" pad="3"/>
+<connect gate="G$2" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="2 CHANNEL LOW CAPACITANCE TVS DIODE ARRAY" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DTR5V0U2SR" constant="no"/>
 </technology>
 </technologies>
 </device>

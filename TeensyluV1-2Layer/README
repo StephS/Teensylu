@@ -1,10 +1,20 @@
-Version 1.2 is ready for production, earlier versions should not be used.
-This latest version of the board utilizes 4 layers. This is to improve the current capacity of the power planes.
-It is recommended that the top and bottom layers be 2oz/in.
+Version 1.3 is ready for production, earlier versions should not be used.
+This version is a 2 Layer board designed for low cost manufacturing. A 4 Layer board is also available.
+It is required that the top and bottom layers be 2oz/in.
 24v power supply should be possible, please note to use a 24v heat bed, hotend, and fans or else damage or FIRE can occur.
 
-Please see TeensyluV1_Pin_Map.htm for the correct pin mapping using the teensyduino library. Analog pins should use the analog pin reference.
+Assembly notes:
+J1-J7 are 22ga Solid core wire jumpers at 0.1" spacing. Do not attempt to stuff with headers.
+J13 and J15 occupy the same space. Choose an appropriate header for the target system.
+
+Please see TeensyluV1_Pin_Mapping.txt for the correct pin mapping using the teensyduino library. Analog pins should use the analog pin reference.
 
 The BOM is included. Please use parts of the same or higher ratings.
 
 If you'd like to donate so I can buy the full version of Eagle, and make more cool stuff, please contact me through Google+ at https://plus.google.com/+StephanieS3D
+
+Disclaimer:
+These designs are provided without any warrenty, expressed or implied. This is a prototype designed for hobbiest use only.
+Care should be taken during use and appropriate safety precautions taken.
+The author is providing this item "as is". The author does not provide any warranty of the item whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item will be error-free.
+In no respect shall the author incur any liability for any damages, including, but limited to, direct, indirect, special, or consequential damages arising out of, resulting from, or any way connected to the use of the item, whether or not based upon warranty, contract, tort, or otherwise; whether or not injury was sustained by persons or property or otherwise; and whether or not loss was sustained from, or arose out of, the results of, the item, or any services that may be provided by the author.
