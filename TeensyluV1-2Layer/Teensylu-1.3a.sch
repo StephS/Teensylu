@@ -6319,8 +6319,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </device>
 </devices>
 </deviceset>
-<deviceset name="PSMN1R2-30YLC" prefix="Q">
-<description>&lt;b&gt;N-Channel MOSFET&lt;/b&gt; - 30V 100A LFPAK</description>
+<deviceset name="PSMN1R8-40YLC" prefix="Q">
+<description>&lt;b&gt;N-Channel MOSFET&lt;/b&gt; - 40V 100A LFPAK</description>
 <gates>
 <gate name="G$1" symbol="IGFET-EN-GD3S" x="0" y="0"/>
 </gates>
@@ -6337,10 +6337,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <technology name="">
 <attribute name="CURRENT" value="100A" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP Semiconductors" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PSMN1R2-30YLC,115" constant="no"/>
-<attribute name="RDS_ON" value="1.25mOhm" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PSMN1R8-40YLC,115" constant="no"/>
+<attribute name="RDS_ON" value="1.8mOhm" constant="no"/>
 <attribute name="VGS" value="1.95V" constant="no"/>
-<attribute name="VOLTAGE" value="30V" constant="no"/>
+<attribute name="VOLTAGE" value="40V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8491,8 +8491,8 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VDC" value="16V"/>
 </part>
-<part name="Q2" library="teensylu" deviceset="PSMN1R2-30YLC" device="POWERPACK-S08" value="PSMN1R2-30YLC"/>
-<part name="Q4" library="teensylu" deviceset="PSMN1R2-30YLC" device="POWERPACK-S08" value="PSMN1R2-30YLC"/>
+<part name="Q2" library="teensylu" deviceset="PSMN1R8-40YLC" device="POWERPACK-S08" value="PSMN1R8-40YLC"/>
+<part name="Q4" library="teensylu" deviceset="PSMN1R8-40YLC" device="POWERPACK-S08" value="PSMN1R8-40YLC"/>
 <part name="SJ10" library="teensylu" deviceset="SOLDERJUMPER-NC" device="SJ-TRACE" value="MS1"/>
 <part name="SJ6" library="teensylu" deviceset="SOLDERJUMPER-NC" device="SJ-TRACE" value="MS2"/>
 <part name="SJ2" library="teensylu" deviceset="SOLDERJUMPER-NC" device="SJ-TRACE" value="MS3"/>
@@ -8717,7 +8717,7 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <text x="1.27" y="238.76" size="1.778" layer="91" font="vector">Mosfets</text>
 <text x="2.54" y="154.94" size="1.778" layer="91" font="vector">Power Acc</text>
 <text x="60.96" y="7.62" size="3.81" layer="94">TeensyluV1</text>
-<text x="175.26" y="7.62" size="2.54" layer="94">Rev 1.3</text>
+<text x="175.26" y="7.62" size="2.54" layer="94">Rev 1.3a</text>
 <text x="111.76" y="7.62" size="3.048" layer="94">Control for Reprap</text>
 <text x="63.5" y="2.54" size="2.032" layer="94">Licensed under the Creative Commons Attributions ShareAlike 3.0 License</text>
 <text x="149.86" y="200.66" size="1.778" layer="91" font="vector">Extension Pin Headers</text>

@@ -8258,6 +8258,33 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 </device>
 </devices>
 </deviceset>
+<deviceset name="PSMN1R8-40YLC" prefix="Q">
+<description>&lt;b&gt;N-Channel MOSFET&lt;/b&gt; - 40V 100A LFPAK</description>
+<gates>
+<gate name="G$1" symbol="IGFET-EN-GD3S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="POWERPACK-S08" package="LFPACK-POWERPAK-SO8">
+<connects>
+<connect gate="G$1" pin="D" pad="5-8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="2"/>
+<connect gate="G$1" pin="S3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CURRENT" value="100A" constant="no"/>
+<attribute name="MANUFACTURER" value="NXP Semiconductors" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PSMN1R8-40YLC,115" constant="no"/>
+<attribute name="RDS_ON" value="1.8mOhm" constant="no"/>
+<attribute name="VGS" value="1.95V" constant="no"/>
+<attribute name="VOLTAGE" value="40V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
